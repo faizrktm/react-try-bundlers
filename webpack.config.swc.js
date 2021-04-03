@@ -14,14 +14,14 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx|ts|tsx)$/,
+        test: /\.(js|jsx)$/,
         include: path.join(__dirname, 'src'),
-        use: 'babel-loader',
+        use: 'swc-loader',
       },
     ],
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.tsx', '.ts', '.json'],
+    extensions: ['.js', '.jsx'],
   },
   plugins: [new HtmlWebpackPlugin({
     filename: 'index.html',

@@ -1,6 +1,13 @@
 # React try bundlers
-Just trying couple of bundlers and compiler to see performance
+Just trying webpack with these bundlers/compiler/transpiler
 
-1. Webpack + babel
+1. Babel
 2. Esbuild
-3. SWC (wip)
+3. SWC
+
+## Commands
+| Command | Description |
+| --- | --- |
+| `build:esbuild` | Build using esbuild |
+| `build:babel` | Build using babel |
+| `build:swc` | Build using swc |
